@@ -8,8 +8,13 @@
 
 1.初始化安装依赖文件
 npm install
+
 2.启动动态监控服务
 gulp serve
+
+public文件夹里的scss和js文件修改后，会自动编译到dist文件夹里，包括压缩前和压缩后两份文件。
+dist中文件的修改，都会触发自动重载页面。
+
 3.一次性执行
 gulp default
 
