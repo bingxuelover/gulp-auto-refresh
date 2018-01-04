@@ -1,1 +1,1 @@
-document.write("test");
+document.write("test watch now!");
